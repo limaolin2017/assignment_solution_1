@@ -39,4 +39,4 @@ I tested **Logistic Regression** on dataset, comparing three parameters:
 
 ## Conclusion
 
-Iaker regularization (C=2) provides the best accuracy for this dataset, while `class_weight="balanced"` offers no clear advantage. The model converges quickly, so increasing `max_iter` beyond 100 does not improve results.
+Higher regularization (C=2) provides the best accuracy for this dataset, while `class_weight="balanced"` offers no clear advantage. The model converges quickly, so increasing `max_iter` beyond 100 does not improve results.
