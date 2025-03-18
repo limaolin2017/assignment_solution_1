@@ -1,0 +1,8 @@
+wandb_version: 1
+
+C:
+  value: 2
+class_weight:
+  value: null
+max_iter:
+  value: 100

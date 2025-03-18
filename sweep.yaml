@@ -1,0 +1,9 @@
+program: src/train.py
+method: grid
+parameters:
+  class_weight:
+    values: [null, "balanced"]
+  C:
+    values: [0.5, 1.0, 2.0]
+  max_iter:
+    values: [100, 300]

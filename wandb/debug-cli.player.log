@@ -1,0 +1,100 @@
+2025-03-18 11:02:18 INFO Running runs: []
+2025-03-18 11:02:18 INFO Agent received command: run
+2025-03-18 11:02:18 INFO Agent starting run with config:
+	C: 0.5
+	class_weight: None
+	max_iter: 100
+2025-03-18 11:02:18 INFO About to run command: /usr/bin/env python src/train.py --C=0.5 --class_weight=None --max_iter=100
+2025-03-18 11:02:23 INFO Running runs: ['y1d5wtha']
+2025-03-18 11:02:29 INFO Cleaning up finished run: y1d5wtha
+2025-03-18 11:02:29 INFO Closing mailbox, abandoning 0 handles.
+2025-03-18 11:02:29 INFO Agent received command: run
+2025-03-18 11:02:29 INFO Agent starting run with config:
+	C: 0.5
+	class_weight: None
+	max_iter: 300
+2025-03-18 11:02:29 INFO About to run command: /usr/bin/env python src/train.py --C=0.5 --class_weight=None --max_iter=300
+2025-03-18 11:02:34 INFO Running runs: ['n7mo5blv']
+2025-03-18 11:02:39 INFO Cleaning up finished run: n7mo5blv
+2025-03-18 11:02:40 INFO Agent received command: run
+2025-03-18 11:02:40 INFO Agent starting run with config:
+	C: 0.5
+	class_weight: balanced
+	max_iter: 100
+2025-03-18 11:02:40 INFO About to run command: /usr/bin/env python src/train.py --C=0.5 --class_weight=balanced --max_iter=100
+2025-03-18 11:02:45 INFO Running runs: ['81dq3mrz']
+2025-03-18 11:02:50 INFO Cleaning up finished run: 81dq3mrz
+2025-03-18 11:02:50 INFO Agent received command: run
+2025-03-18 11:02:50 INFO Agent starting run with config:
+	C: 0.5
+	class_weight: balanced
+	max_iter: 300
+2025-03-18 11:02:50 INFO About to run command: /usr/bin/env python src/train.py --C=0.5 --class_weight=balanced --max_iter=300
+2025-03-18 11:02:55 INFO Running runs: ['ger9ngsz']
+2025-03-18 11:03:00 INFO Cleaning up finished run: ger9ngsz
+2025-03-18 11:03:00 INFO Agent received command: run
+2025-03-18 11:03:00 INFO Agent starting run with config:
+	C: 1
+	class_weight: None
+	max_iter: 100
+2025-03-18 11:03:00 INFO About to run command: /usr/bin/env python src/train.py --C=1 --class_weight=None --max_iter=100
+2025-03-18 11:03:05 INFO Running runs: ['m8ftf8fc']
+2025-03-18 11:03:11 INFO Cleaning up finished run: m8ftf8fc
+2025-03-18 11:03:11 INFO Agent received command: run
+2025-03-18 11:03:11 INFO Agent starting run with config:
+	C: 1
+	class_weight: None
+	max_iter: 300
+2025-03-18 11:03:11 INFO About to run command: /usr/bin/env python src/train.py --C=1 --class_weight=None --max_iter=300
+2025-03-18 11:03:16 INFO Running runs: ['96d1s91k']
+2025-03-18 11:03:21 INFO Cleaning up finished run: 96d1s91k
+2025-03-18 11:03:21 INFO Agent received command: run
+2025-03-18 11:03:21 INFO Agent starting run with config:
+	C: 1
+	class_weight: balanced
+	max_iter: 100
+2025-03-18 11:03:21 INFO About to run command: /usr/bin/env python src/train.py --C=1 --class_weight=balanced --max_iter=100
+2025-03-18 11:03:26 INFO Running runs: ['1ko7u2zn']
+2025-03-18 11:03:31 INFO Cleaning up finished run: 1ko7u2zn
+2025-03-18 11:03:32 INFO Agent received command: run
+2025-03-18 11:03:32 INFO Agent starting run with config:
+	C: 1
+	class_weight: balanced
+	max_iter: 300
+2025-03-18 11:03:32 INFO About to run command: /usr/bin/env python src/train.py --C=1 --class_weight=balanced --max_iter=300
+2025-03-18 11:03:37 INFO Running runs: ['jy6kcdo9']
+2025-03-18 11:03:42 INFO Cleaning up finished run: jy6kcdo9
+2025-03-18 11:03:42 INFO Agent received command: run
+2025-03-18 11:03:42 INFO Agent starting run with config:
+	C: 2
+	class_weight: None
+	max_iter: 100
+2025-03-18 11:03:42 INFO About to run command: /usr/bin/env python src/train.py --C=2 --class_weight=None --max_iter=100
+2025-03-18 11:03:47 INFO Running runs: ['7syo0lj1']
+2025-03-18 11:03:52 INFO Cleaning up finished run: 7syo0lj1
+2025-03-18 11:03:53 INFO Agent received command: run
+2025-03-18 11:03:53 INFO Agent starting run with config:
+	C: 2
+	class_weight: None
+	max_iter: 300
+2025-03-18 11:03:53 INFO About to run command: /usr/bin/env python src/train.py --C=2 --class_weight=None --max_iter=300
+2025-03-18 11:03:58 INFO Running runs: ['yqqs9b3f']
+2025-03-18 11:04:03 INFO Cleaning up finished run: yqqs9b3f
+2025-03-18 11:04:04 INFO Agent received command: run
+2025-03-18 11:04:04 INFO Agent starting run with config:
+	C: 2
+	class_weight: balanced
+	max_iter: 100
+2025-03-18 11:04:04 INFO About to run command: /usr/bin/env python src/train.py --C=2 --class_weight=balanced --max_iter=100
+2025-03-18 11:04:09 INFO Running runs: ['0vs4c8h4']
+2025-03-18 11:04:14 INFO Cleaning up finished run: 0vs4c8h4
+2025-03-18 11:04:14 INFO Agent received command: run
+2025-03-18 11:04:14 INFO Agent starting run with config:
+	C: 2
+	class_weight: balanced
+	max_iter: 300
+2025-03-18 11:04:14 INFO About to run command: /usr/bin/env python src/train.py --C=2 --class_weight=balanced --max_iter=300
+2025-03-18 11:04:19 INFO Running runs: ['iu2b9fng']
+2025-03-18 11:04:24 INFO Cleaning up finished run: iu2b9fng
+2025-03-18 11:04:25 INFO Agent received command: exit
+2025-03-18 11:04:25 INFO Received exit command. Killing runs and quitting.

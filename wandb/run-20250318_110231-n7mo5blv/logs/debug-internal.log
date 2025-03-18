@@ -1,0 +1,94 @@
+2025-03-18 11:02:31,665 INFO    StreamThr :67419 [internal.py:wandb_internal():83] W&B internal server running at pid: 67419, started at: 2025-03-18 11:02:31.664855
+2025-03-18 11:02:31,666 INFO    WriterThread:67419 [datastore.py:open_for_write():87] open: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/run-n7mo5blv.wandb
+2025-03-18 11:02:32,024 INFO    HandlerThread:67419 [system_monitor.py:start():187] Starting system monitor
+2025-03-18 11:02:32,024 INFO    SenderThread:67419 [dir_watcher.py:__init__():211] watching files in: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files
+2025-03-18 11:02:32,024 INFO    SenderThread:67419 [sender.py:_start_run_threads():1134] run started: n7mo5blv with start time 1742292151.664409
+2025-03-18 11:02:32,024 INFO    SystemMonitor:67419 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-03-18 11:02:32,025 INFO    HandlerThread:67419 [system_monitor.py:probe():207] Collecting system info
+2025-03-18 11:02:32,025 INFO    SystemMonitor:67419 [interfaces.py:start():186] Started cpu monitoring
+2025-03-18 11:02:32,026 INFO    SystemMonitor:67419 [interfaces.py:start():186] Started disk monitoring
+2025-03-18 11:02:32,026 INFO    SystemMonitor:67419 [interfaces.py:start():186] Started memory monitoring
+2025-03-18 11:02:32,029 INFO    SystemMonitor:67419 [interfaces.py:start():186] Started network monitoring
+2025-03-18 11:02:32,042 INFO    HandlerThread:67419 [system_monitor.py:probe():217] Finished collecting system info
+2025-03-18 11:02:32,042 INFO    HandlerThread:67419 [system_monitor.py:probe():220] Publishing system info
+2025-03-18 11:02:32,042 INFO    HandlerThread:67419 [system_monitor.py:probe():222] Finished publishing system info
+2025-03-18 11:02:32,044 INFO    SenderThread:67419 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2025-03-18 11:02:32,322 INFO    SenderThread:67419 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-03-18 11:02:32,323 INFO    SenderThread:67419 [sender.py:send_exit():554] handling exit code: 0
+2025-03-18 11:02:32,323 INFO    SenderThread:67419 [sender.py:send_exit():556] handling runtime: 0
+2025-03-18 11:02:32,323 INFO    SenderThread:67419 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-03-18 11:02:32,323 INFO    SenderThread:67419 [sender.py:send_exit():562] send defer
+2025-03-18 11:02:32,323 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 0
+2025-03-18 11:02:32,323 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 0
+2025-03-18 11:02:32,323 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 1
+2025-03-18 11:02:32,323 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 1
+2025-03-18 11:02:32,324 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 1
+2025-03-18 11:02:32,324 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 2
+2025-03-18 11:02:32,324 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 2
+2025-03-18 11:02:32,324 INFO    HandlerThread:67419 [system_monitor.py:finish():196] Stopping system monitor
+2025-03-18 11:02:32,324 INFO    HandlerThread:67419 [interfaces.py:finish():198] Joined cpu monitor
+2025-03-18 11:02:32,324 INFO    HandlerThread:67419 [interfaces.py:finish():198] Joined disk monitor
+2025-03-18 11:02:32,324 INFO    HandlerThread:67419 [interfaces.py:finish():198] Joined memory monitor
+2025-03-18 11:02:32,324 INFO    HandlerThread:67419 [interfaces.py:finish():198] Joined network monitor
+2025-03-18 11:02:32,325 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 2
+2025-03-18 11:02:32,325 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 3
+2025-03-18 11:02:32,325 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 3
+2025-03-18 11:02:32,325 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 3
+2025-03-18 11:02:32,325 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 4
+2025-03-18 11:02:32,325 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 4
+2025-03-18 11:02:32,325 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 4
+2025-03-18 11:02:32,325 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 5
+2025-03-18 11:02:32,325 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 5
+2025-03-18 11:02:32,326 INFO    SenderThread:67419 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-03-18 11:02:32,326 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 5
+2025-03-18 11:02:32,326 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 6
+2025-03-18 11:02:32,326 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 6
+2025-03-18 11:02:32,326 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 6
+2025-03-18 11:02:32,494 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 7
+2025-03-18 11:02:32,494 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 7
+2025-03-18 11:02:32,494 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 7
+2025-03-18 11:02:32,494 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 8
+2025-03-18 11:02:32,494 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 8
+2025-03-18 11:02:32,495 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 8
+2025-03-18 11:02:32,495 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 9
+2025-03-18 11:02:32,495 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 9
+2025-03-18 11:02:32,495 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 9
+2025-03-18 11:02:32,495 INFO    SenderThread:67419 [dir_watcher.py:finish():359] shutting down directory watcher
+2025-03-18 11:02:32,623 INFO    wandb-upload_0:67419 [upload_job.py:push():130] Uploaded file /var/folders/y3/j8ykdhdn14124bw34hptw9kw0000gn/T/tmp2bs3d65nwandb/acz2q166-wandb-metadata.json
+2025-03-18 11:02:33,032 INFO    SenderThread:67419 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/config.yaml
+2025-03-18 11:02:33,033 INFO    SenderThread:67419 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/wandb-summary.json
+2025-03-18 11:02:33,033 INFO    SenderThread:67419 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/requirements.txt
+2025-03-18 11:02:33,033 INFO    SenderThread:67419 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/wandb-metadata.json
+2025-03-18 11:02:33,033 INFO    SenderThread:67419 [dir_watcher.py:finish():389] scan: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files
+2025-03-18 11:02:33,033 INFO    SenderThread:67419 [dir_watcher.py:finish():403] scan save: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/requirements.txt requirements.txt
+2025-03-18 11:02:33,033 INFO    SenderThread:67419 [dir_watcher.py:finish():403] scan save: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/config.yaml config.yaml
+2025-03-18 11:02:33,035 INFO    SenderThread:67419 [dir_watcher.py:finish():403] scan save: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/wandb-summary.json wandb-summary.json
+2025-03-18 11:02:33,037 INFO    SenderThread:67419 [dir_watcher.py:finish():403] scan save: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/wandb-metadata.json wandb-metadata.json
+2025-03-18 11:02:33,037 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 10
+2025-03-18 11:02:33,040 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 10
+2025-03-18 11:02:33,040 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 10
+2025-03-18 11:02:33,041 INFO    SenderThread:67419 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-18 11:02:33,409 INFO    wandb-upload_0:67419 [upload_job.py:push():130] Uploaded file /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/requirements.txt
+2025-03-18 11:02:33,485 INFO    wandb-upload_1:67419 [upload_job.py:push():130] Uploaded file /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/config.yaml
+2025-03-18 11:02:33,524 INFO    wandb-upload_2:67419 [upload_job.py:push():130] Uploaded file /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/files/wandb-summary.json
+2025-03-18 11:02:33,730 INFO    Thread-11 (_thread_body):67419 [sender.py:transition_state():582] send defer: 11
+2025-03-18 11:02:33,730 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 11
+2025-03-18 11:02:33,731 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 11
+2025-03-18 11:02:33,731 INFO    SenderThread:67419 [file_pusher.py:join():175] waiting for file pusher
+2025-03-18 11:02:33,731 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 12
+2025-03-18 11:02:33,732 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 12
+2025-03-18 11:02:33,732 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 12
+2025-03-18 11:02:33,732 INFO    SenderThread:67419 [file_stream.py:finish():601] file stream finish called
+2025-03-18 11:02:34,318 INFO    SenderThread:67419 [file_stream.py:finish():605] file stream finish is done
+2025-03-18 11:02:34,319 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 13
+2025-03-18 11:02:34,320 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 13
+2025-03-18 11:02:34,320 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 13
+2025-03-18 11:02:34,320 INFO    SenderThread:67419 [sender.py:transition_state():582] send defer: 14
+2025-03-18 11:02:34,320 INFO    HandlerThread:67419 [handler.py:handle_request_defer():188] handle defer: 14
+2025-03-18 11:02:34,321 INFO    SenderThread:67419 [sender.py:send_request_defer():578] handle sender defer: 14
+2025-03-18 11:02:34,325 INFO    HandlerThread:67419 [handler.py:finish():897] shutting down handler
+2025-03-18 11:02:35,326 INFO    MsgRouterThr:67419 [mailbox.py:close():129] Closing mailbox, abandoning 0 handles.
+2025-03-18 11:02:35,328 INFO    WriterThread:67419 [datastore.py:close():296] close: /Users/player/Documents/adp/wandb/run-20250318_110231-n7mo5blv/run-n7mo5blv.wandb
+2025-03-18 11:02:35,328 INFO    SenderThread:67419 [sender.py:finish():1582] shutting down sender
+2025-03-18 11:02:35,328 INFO    SenderThread:67419 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-18 11:02:35,328 INFO    SenderThread:67419 [file_pusher.py:join():175] waiting for file pusher

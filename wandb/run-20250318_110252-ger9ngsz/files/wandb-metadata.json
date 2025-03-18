@@ -1,0 +1,49 @@
+{
+    "os": "macOS-15.3.2-arm64-arm-64bit",
+    "python": "CPython 3.10.10",
+    "heartbeatAt": "2025-03-18T10:02:52.855081",
+    "startedAt": "2025-03-18T10:02:52.475720",
+    "docker": null,
+    "args": [
+        "service",
+        "--debug",
+        "--port-filename",
+        "/var/folders/y3/j8ykdhdn14124bw34hptw9kw0000gn/T/tmp0upi_6xu/port-67554.txt",
+        "--pid",
+        "67554"
+    ],
+    "state": "running",
+    "program": "/Users/player/Documents/adp/src/train.py",
+    "codePathLocal": "src/train.py",
+    "codePath": "src/train.py",
+    "host": "MaolintekiMacBook-Pro.local",
+    "username": null,
+    "executable": "/Users/player/Documents/adp/myenv/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3228,
+        "min": 600,
+        "max": 3228
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3228,
+            "min": 600,
+            "max": 3228
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 494384795648,
+            "used": 11157626880
+        },
+        "/System/Volumes/Data": {
+            "total": 494384795648,
+            "used": 273871007744
+        }
+    },
+    "memory": {
+        "total": 17179869184
+    }
+}
