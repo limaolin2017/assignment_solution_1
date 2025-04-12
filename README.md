@@ -1,4 +1,4 @@
-# ADP assignment
+# Assignment
 
 ## Experiment
 I tested **Logistic Regression** on dataset, comparing three parameters:
