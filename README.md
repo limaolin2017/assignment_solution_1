@@ -1,5 +1,7 @@
 # Assignment
 
+# 本仓库包含一个逻辑回归实验。它详细介绍了实验的设置、方法、结果和结论。
+
 ## Experiment
 I tested **Logistic Regression** on dataset, comparing three parameters:
 - **C** (0.5, 1, 2)  
